@@ -1,0 +1,54 @@
+*{
+    padding: 0 auto;
+    margin: 0 auto;
+}
+body{
+    background-color: black;
+}
+.corpo{
+    width: 70%;
+    height: 100%;
+    background-color: rgb(204, 204, 204);
+}
+.letra_perfil{
+    text-align: center;
+    text-decoration: underline;
+}
+.tittle_perfil{
+    text-align: center;
+}
+.detalhes{
+    background-color: rgb(204, 204, 204);
+    border: none;
+    outline: none;
+}
+.atributos{
+    background-color: rgb(204, 204, 204);
+    border: none;
+    outline: none;
+    width: 60px;
+    font-size: 25px;
+}
+.bordinha{
+    width: 30%;
+    height: 180px;
+    border-radius: 15px;
+    margin-left: 120px;
+}
+.bordinha2{
+    width: 30%;
+    height: 300px;
+    border-radius: 15px;
+    margin-left: 120px;
+}
+img{
+    height: 230px;
+    border: black solid 2px;
+    border-radius: 15px;
+}
+.inline{
+    display: flex;
+}
+.foto{
+    margin-left: 30px;
+}
