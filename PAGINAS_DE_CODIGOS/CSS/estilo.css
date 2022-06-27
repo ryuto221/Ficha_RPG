@@ -52,3 +52,24 @@ img{
 .foto{
     margin-left: 30px;
 }
+/*cadastro*/
+.cadastro{
+    width: 70%;
+    height: 100%;
+    background-color: rgb(204, 204, 204);
+}
+.caContainer{
+    margin: 0 auto;
+    width: 25%;
+    color: white;
+    border: 2px solid black;
+    border-radius: 15px;
+    padding: 20px 15px;
+    margin-top: 10px;
+}
+.caContainer h1{
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
