@@ -3,6 +3,6 @@
 <head>
     <meta charset="UTF-8">
     <title>Ficha RPG</title>
-    <link rel="stylesheet" href="../CSS/estilo.css">
-    <script src="../JAVASCRIPT/script.js"></script>
+    <link rel="stylesheet" href="../../css/estilo.css">
+    <script src="../js/script.js"></script>
 </head>
