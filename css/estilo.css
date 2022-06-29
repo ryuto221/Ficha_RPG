@@ -52,24 +52,30 @@ img{
 .foto{
     margin-left: 30px;
 }
-/*cadastro*/
-.cadastro{
-    width: 70%;
-    height: 100%;
-    background-color: rgb(204, 204, 204);
-}
-.caContainer{
+.corpo form{
     margin: 0 auto;
-    width: 25%;
-    color: white;
+    width: 50%;
+    padding: 20px;
+}
+fieldset{
     border: 2px solid black;
     border-radius: 15px;
-    padding: 20px 15px;
-    margin-top: 10px;
-}
-.caContainer h1{
     text-align: center;
-    padding: 0;
-    margin: 0;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+fieldset a {
+    color: black;
+    text-decoration: none;
+}
+fieldset input{
+    border: none;
+    background: none;
+    outline: none;
+    border-bottom: 2px solid;
+    color: black;
+}
+.voltar{
+    float: left;
+}
+.erro{
+    color: red;
 }
