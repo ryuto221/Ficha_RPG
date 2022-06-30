@@ -1,9 +1,14 @@
 <?php
     require("../template/header.php");
+    $nomeErro = "";
+    $emailErro = "";
+    $confEmailErro = "";
+    $senhaErro = "";
+    $confSenhaErro = "";
 ?>
 <body>
     <div class="corpo">
-        <form>
+        <form action="" method="POST">
             <fieldset>
                 <h1>Cadastro</h1>
                 <p>Se já é cadastrado faça <a href="login.php">login</a></p>
@@ -12,21 +17,26 @@
                 <input type="text" name="nome">
                 <span class="erro"><?php echo $nomeErro; ?></span>
                 <br>
+                <br>
                 <label>E-mail</label><br>
                 <input type="email" name="email">
                 <span class="erro"><?php echo $emailErro; ?></span>
+                <br>
                 <br>
                 <label>Confirme o e-mail</label><br>
                 <input type="email" name="email">
                 <span class="erro"><?php echo $confEmailErro; ?></span>
                 <br>
+                <br>
                 <label>Senha</label><br>
                 <input type="password" name="senha">
                 <span class="erro"><?php echo $senhaErro; ?></span>
                 <br>
+                <br>
                 <label>Confirmar senha</label><br>
                 <input type="password" name="confSenha">
                 <span class="erro"><?php echo $confSenhaErro; ?></span>
+                <br>
                 <br>
                 <label>Sou mestre de um rpg <input type="checkbox" name="mestre"></label>
                 <br>
