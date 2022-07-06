@@ -1,3 +1,3 @@
 <?php
-    require("../../css/estilo.css");
+    require("../template/header.php");
 ?>
