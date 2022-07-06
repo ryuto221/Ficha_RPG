@@ -4,13 +4,14 @@
 }
 body{
     background-color: black;
+    margin-top: 0;
 }
 .corpo{
     width: 70%;
     height: 100%;
     background-color: rgb(204, 204, 204);
-    padding: 20px;
-
+    position: absolute;
+    margin-left: 15%;
 }
 .letra_perfil{
     text-align: center;
@@ -66,6 +67,7 @@ img{
     border: 2px solid black;
     border-radius: 15px;
     padding: 20px 15px;
+    margin-top: 20px;
 }
 .caContainer h1{
     text-align: center;
